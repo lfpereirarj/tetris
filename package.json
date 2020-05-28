@@ -2,5 +2,12 @@
   "name": "tetris",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "homepage": "https://lfpereirarj.github.io/tetris",
+  "scripts": {
+    "deploy": "./node_modules/.bin/gh-pages -d dist"
+  },
+  "dependencies": {
+    "gh-pages": "^2.2.0"
+  }
 }
